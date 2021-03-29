@@ -1,9 +1,13 @@
 import React from 'react';
+import fakeData from '../../fakeData';
 
 const Inventory = () => {
+    const handleAddProduct = () =>{
+        fakeData
+    }
     return (
         <div>
-            <h1> Inventory Coming soon </h1>
+            <button onClick={handleAddProduct}> Add Product</button>
         </div>
     );
 };
